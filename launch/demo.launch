@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  
+  <node pkg="nxp_demo" type="nxp_demo" name="demo_node" output="screen">
+    <remap from="input/topic" to="/str_topic"/>
+  </node>
+
+</launch>
